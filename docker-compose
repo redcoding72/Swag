@@ -14,7 +14,7 @@ services:
       - VALIDATION=duckdns
       - EMAIL=redcoding72@gmail.com
     volumes:
-      - /appdata/swag:/config
+      - /docker/appdata/swag:/config
     ports:
       - 443:443
       - 80:80

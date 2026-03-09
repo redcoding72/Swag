@@ -12,6 +12,7 @@ services:
       - URL=gb-service.duckdns.org
       - SUBDOMAINS=wildcard
       - VALIDATION=duckdns
+      - DUCKDNSTOKEN=7bb4efcf-9a32-4225-bfb2-bda079ded5b9
       - EMAIL=redcoding72@gmail.com
     volumes:
       - /docker/appdata/swag:/config

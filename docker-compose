@@ -8,7 +8,7 @@ services:
     environment:
       - PUID=996
       - PGID=100
-      - TZ=Africa/Algriers
+      - TZ=Africa/Algiers
       - URL=gb-service.duckdns.org
       - SUBDOMAINS=wildcard
       - VALIDATION=duckdns
